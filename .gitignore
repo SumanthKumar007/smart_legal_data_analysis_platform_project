@@ -1,0 +1,22 @@
+# Virtual Environment
+# Ignore the virtual environment directory to prevent committing environment-specific files.
+venv/
+
+# Environment Variables
+# Exclude environment variable files containing sensitive information.
+.env
+
+# Python Bytecode Files
+# Ignore compiled Python files and cache directories to keep the repository clean.
+__pycache__/
+*.pyc
+
+# Logs
+# Exclude log files to avoid committing runtime logs.
+logs/
+*.log
+
+# Vector Store
+# Ignore directories related to vector storage to prevent committing large or generated files.
+vectorstore/
+
